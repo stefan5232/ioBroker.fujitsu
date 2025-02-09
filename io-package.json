@@ -1,0 +1,91 @@
+{
+    "common": {
+        "name": "fujitsu",
+        "version": "0.0.1",
+        "news": {
+            "0.0.1": {
+                "en": "initial release",
+                "de": "Erstveröffentlichung",
+                "ru": "Начальная версия",
+                "pt": "lançamento inicial",
+                "nl": "Eerste uitgave",
+                "fr": "Première version",
+                "it": "Versione iniziale",
+                "es": "Versión inicial",
+                "pl": "Pierwsze wydanie",
+                "uk": "Початкова версія",
+                "zh-cn": "首次出版"
+            }
+        },
+        "titleLang": {
+            "en": "Fujitsu Klimaanlage",
+            "de": "Fujitsu Klimaanlage",
+            "ru": "Fujitsu Klimaanlage",
+            "pt": "Fujitsu Klimaanlage",
+            "nl": "Fujitsu Klimaanlage",
+            "fr": "Fujitsu Klimaanlage",
+            "it": "Fujitsu Klimaanlage",
+            "es": "Fujitsu Klimaanlage",
+            "pl": "Fujitsu Klimaanlage",
+            "uk": "Fujitsu Klimaanlage",
+            "zh-cn": "Fujitsu Klimaanlage"
+        },
+        "desc": {
+            "en": "Steuert Fujitsu Klimaanlagen",
+            "de": "Steuert Fujitsu Klimaanlagen",
+            "ru": "Steuert Fujitsu Klimaanlagen",
+            "pt": "Steuert Fujitsu Klimaanlagen",
+            "nl": "Steuert Fujitsu Klimaanlagen",
+            "fr": "Steuert Fujitsu Klimaanlagen",
+            "it": "Steuert Fujitsu Klimaanlagen",
+            "es": "Steuert Fujitsu Klimaanlagen",
+            "pl": "Steuert Fujitsu Klimaanlagen",
+            "uk": "Steuert Fujitsu Klimaanlagen",
+            "zh-cn": "Steuert Fujitsu Klimaanlagen"
+        },
+        "authors": [
+            "stefan5232 <stefan5232@gmx.de>"
+        ],
+        "keywords": [
+            "ioBroker",
+            "template",
+            "Smart Home",
+            "home automation"
+        ],
+        "licenseInformation": {
+            "type": "free",
+            "license": "MIT"
+        },
+        "platform": "Javascript/Node.js",
+        "icon": "fujitsu.png",
+        "enabled": true,
+        "extIcon": "https://raw.githubusercontent.com/stefan5232/ioBroker.fujitsu/main/admin/fujitsu.png",
+        "readme": "https://github.com/stefan5232/ioBroker.fujitsu/blob/main/README.md",
+        "loglevel": "info",
+        "tier": 3,
+        "mode": "daemon",
+        "type": "climate-control",
+        "compact": true,
+        "connectionType": "local",
+        "dataSource": "poll",
+        "adminUI": {
+            "config": "json"
+        },
+        "dependencies": [
+            {
+                "js-controller": ">=6.0.11"
+            }
+        ],
+        "globalDependencies": [
+            {
+                "admin": "7.0.23"
+            }
+        ]
+    },
+    "native": {
+        "IP": "192.168.0.10",
+        "MAC": "42aa42aa42aa"
+    },
+    "objects": [],
+    "instanceObjects": []
+}

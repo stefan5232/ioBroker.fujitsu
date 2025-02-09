@@ -1,0 +1,16 @@
+{
+    "i18n": true,
+    "type": "panel",
+    "items": {
+        "IP": {
+            "type": "text",
+            "label": "IP-Adresse",
+            "newLine": true
+        },
+        "MAC": {
+            "type": "text",
+            "label": "MAC-Adresse",
+            "newLine": true
+        }
+    }
+}
